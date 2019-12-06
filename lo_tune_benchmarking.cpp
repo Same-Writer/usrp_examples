@@ -128,7 +128,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     bool lock = true;
     uhd::time_spec_t tune_time;
     double last_freq = freq;
-    double next_freq = 5000000000;
+    double next_freq = 4000000000;
 
     while (lock) {
         
